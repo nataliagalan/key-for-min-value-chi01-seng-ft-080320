@@ -17,7 +17,7 @@ def key_for_min_value(name_hash)
 
   # Iterate over new array
   name_array.each do |row|
-      # If current value is lower than default, change value&key
+      # If current value is lower than default, change value and key
       if row[1] < d_value
         d_value = row[1]
         d_key = row[0]

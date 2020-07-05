@@ -23,7 +23,7 @@ def key_for_min_value(name_hash)
         d_key = row[0]
       end
    end
-   
+
  if name_hash == {}
   return nil
  else
